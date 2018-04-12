@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "¿Qué es data science?"
+title:  "Qué es data science"
 date:   2018-04-05 
 categories: thoughts opinion
 tags: data-science
@@ -10,6 +10,7 @@ mathjax: true
 
 * content
 {:toc}
+
 
 
 Esto pretende ser un blog en torno a la ciencia computacional y de datos, así pues, no se me ocurre mejor manera de inaugurarlo que dando mi visión de lo que es la data science, su evolución y los roles profesionales a los que ha dado lugar.
