@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "¿Qué es la "data science"?"
+title:  "¿Qué es "data science"?"
 date:   2018-04-05 
-categories: thoughts, opinion
-tags: data science
+categories: thoughts opinion
+tags: data-science
 author: SC
 mathjax: true
 ---
