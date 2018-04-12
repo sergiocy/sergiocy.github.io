@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Qué es data science"
-date:   2018-04-05 
+date:   2018-04-12 
 categories: thoughts opinion
 tags: data-science
 author: SC
