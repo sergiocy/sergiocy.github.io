@@ -3,7 +3,7 @@ layout: post
 title:  "Herramientas de gestión personal y documentación"
 date:   2018-04-16
 categories: methodology management
-tags: Trello Evernote 
+tags: methodology
 author: SC
 mathjax: true
 ---
