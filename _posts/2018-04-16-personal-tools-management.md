@@ -14,9 +14,6 @@ mathjax: true
 
 En el mundo del desarrollo de software y la I+D, como en otros muchos, es muy importante la planificación y la gestión del tiempo. A veces incluso tanto o más que la parte técnica. Ojo! claro que tienen que ir de la mano, de nada nos sirve un desarrollo técnico brillante si no marcamos plazos y no vamos reportando la evolución, pero, por supuesto, tampoco es suficiente una planificación escrupulosamente definida sin un desarrollo técnico que la acompañe. 
 
-Mi método
----
-
 En lo personal, continuamente sigo buscando mejores estrategias de planifición; a medio plazo siempre se confirma que es un tiempo que merece la pena invertir. Es como el documentar, que a muchos técnicos no les gusta demasiado, pero no tardas mucho en darte cuenta de que merece la pena hacerlo y que el tiempo que gastas en el momento, muchas veces lo recuperas a posteriori. A veces me acuerdo de un profesor que una vez nos habló de la importancia de "tener cosas hechas" a las que poder acudir. Documentar precisamente nos ofrece esto, tener una referencia para refrescar alguna cuestión, resolver dudas o reutilizar trabajo que ya hiciste.   
 
 Pero centrándonos en la gestión del trabajo, os quería comentar cuáles son mis métodos y herramientas. Estas últimas, están funcionando constantemente en mi móvil y permanentemente estoy apuntándome cosas, reorganizando o cambiando tareas, escribiendo notas... ya sabéis, el trabajo de investigador/desarrollador es 24x7 y, por si fuera poco, siempre tienes, además, algún curso que quieres hacer, alguna tecnología que quieres revisar, algún artículo (o muchos) por leer... Así, la gestión del tiempo eleva su importancia, más alla, de lo profesional, llegando a lo personal. 
