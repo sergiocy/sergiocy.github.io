@@ -25,8 +25,11 @@ Desde mi punto de vista, los causantes de la confusión han sido, precisamente; 
 Veamos por qué digo esto...
 
 
-Sobre data science
----
+
+
+
+## Sobre data science
+
 
 La denominada "ciencia de datos" se origina en la estadística y las matemáticas que, para mí, son los primeros y originales científicos de datos: estadísticos, matemáticos y, si acaso, algunos economistas y físicos (yo soy físico). Seamos sinceros, la mayor parte del "data science", "data mining", "machine learning", "business intelligence" o como queramos llamarlo, se fundamentan en lo que siempre se ha denominado "estadística" y "optimización". "Investigación operativa" si queremos ser un poco más modernos (una vez me dijeron que los primeros nombres son las etiquetas "comerciales" que les han puesto a las segundas para poder "venderlas"). Como mucho las aderezaría con las técnicas heurísticas que, en las universidades, se estudian en los departamentos de Estadística y/o Investigación Operativa, pero acepto mencionarlas a parte por no estar sujetas al mismo rigor matemático.
 
