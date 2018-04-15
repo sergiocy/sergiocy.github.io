@@ -11,8 +11,6 @@ mathjax: true
 * content
 {:toc}
 
-algo
-==
 
 En el mundo del desarrollo de software y la I+D, como en otros muchos, es muy importante la planificación y la gestión del tiempo. A veces incluso tanto o más que la parte técnica. Ojo! claro que tienen que ir de la mano, de nada nos sirve un desarrollo técnico brillante si no marcamos plazos y no vamos reportando la evolución, pero, por supuesto, tampoco es suficiente una planificación escrupulosamente definida sin un desarrollo técnico que la acompañe. 
 
