@@ -2,7 +2,7 @@
 layout: post
 title:  "La técnica de Feynmann"
 date:   2018-04-16
-categories: recommended-articles, learning
+categories: recommended-articles learning
 tags: learning
 author: SC
 mathjax: true
