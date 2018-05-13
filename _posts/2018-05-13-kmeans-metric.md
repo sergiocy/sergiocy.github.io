@@ -12,7 +12,6 @@ mathjax: true
 {:toc}
 
 
-
 En data science, muchas veces nos encontramos ante la necesidad de dar métricas o puntuaciones para los resultados que obtenemos. En ocasiones, no sólo es interesante el propio resultado, si no tambien tener una idea de su calidad. 
 
 En este contexto, me encuentro trabajando en un proyecto en el que se implementa una clasificación mediante el algoritmo de k-means, y se me requería dar una métrica para la pertenencia de cada observación a su clase asignada. Quiero decir, una medida de la seguridad o la probabilidad con la que dicha observación pertenece a esa clase. 
