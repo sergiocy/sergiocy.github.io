@@ -12,7 +12,6 @@ mathjax: true
 {:toc}
 
 
-
 Esto pretende ser un blog en torno a la ciencia computacional y de datos, así pues, no se me ocurre mejor manera de inaugurarlo que dando mi visión de lo que es la data science, su evolución y los roles profesionales a los que ha dado lugar.
 
 Como una primera (y breve) definición yo diría que 
