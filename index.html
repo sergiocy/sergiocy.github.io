@@ -23,24 +23,23 @@ layout: default
                     <div class="label-card">
                         <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
                     </div>
+                    
                     <div class="label-card">
                         {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
                         {% endif %}
                     </div>
+                    
                     <div class="label-card">
                         {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
                     </div>
-                    
                     
                     <div class="label-card">
                     {% include category.html %}
                     </div>
                     
-                    
                     <div class="label-card">
                     {% include tag.html %}
                     </div>
-					
                 </div>
                 <div class="excerpt">
                     {{post.excerpt}}
@@ -78,8 +77,6 @@ layout: default
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
-            
-            
             
             <div class="side">
                 <div>
