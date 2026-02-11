@@ -7,7 +7,7 @@
 
 # Site settings
 title: SC
-brief-intro: data science | intelligent systems
+brief-intro: DATA SCIENCE | ANALYTICS | AI
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sergiocy.github.io" # the base hostname & protocol for your site
 
@@ -15,13 +15,13 @@ permalink: /:year/:month/:day/:title/
 
 
 # other links
-#twitter_username: gaohaoyang126
-#facebook_username: gaohaoyang.water
-#github_username:  sergiocy
-#email: sergiocordoba82@gmail.com
-#weibo_username: 3115521wh
-#zhihu_username: gaohaoyang
-#linkedIn_username: sergiocordoba
+#twitter_username: 
+#facebook_username: 
+#github_username:  
+#email: 
+#weibo_username: 
+#zhihu_username: 
+#linkedIn_username: 
 #dribbble_username:
 
 
