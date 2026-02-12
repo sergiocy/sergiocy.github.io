@@ -2,7 +2,7 @@
 layout: post
 title:  "¿Qué es data science?"
 date:   2018-04-05
-categories: thoughts opinion
+categories: miscelaneous
 tags: data-science
 author: SC
 mathjax: true
