@@ -81,10 +81,10 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    Recent Posts
+                    SECTIONS
                 </div>
                 <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 3  %}
+                    {% for post in site.posts offset: 0 limit: 100  %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
