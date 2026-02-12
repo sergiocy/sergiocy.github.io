@@ -2,8 +2,8 @@
 layout: post
 title:  "Una métrica para la pertenencia a una clase mediante k-means"
 date:   2018-05-13
-categories: data-science algorithms
-tags: clustering k-means metrics algorithms
+categories: miscelaneous
+tags: clustering k-means SVM k-prototypes affinity-propagation hierarchical non-hierarchical classification metrics algorithms KPI distance
 author: SC
 mathjax: true
 ---
