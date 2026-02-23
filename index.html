@@ -16,12 +16,10 @@ layout: default
                         <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
                     </div>
                     
-                    
                     <div class="label-card">
                         {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
                         {% endif %}
                     </div>
-                    
                     
                     <div class="label-card">
                         {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
@@ -80,17 +78,14 @@ layout: default
     
     
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
+    
     <div class="right"> 
         <div class="wrap">
         
-            
             <div class="side">
-                <div>
-                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    Presentation
+                <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Presentation
                 </div>
                 <ul class="content-ul" recent>
-                
                         {% for post in site.posts offset: 0 limit: 10  %}
                             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                         {% endfor %}
@@ -101,9 +96,7 @@ layout: default
                             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                         {% endif %}
                      {% endfor %} 
-                     
-                    --> 
-                       
+                    -->     
                 </ul>
             </div>
             
@@ -131,10 +124,7 @@ layout: default
             
             <!-- home tags-->
             <div class="side">
-                <div>
-                    <i class="fa fa-tags"></i>
-                    Tags
-                </div>
+                <div><i class="fa fa-tags"></i>Tags</div>
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
                     {% assign max = first[1].size %}

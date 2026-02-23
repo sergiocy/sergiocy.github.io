@@ -8,7 +8,7 @@
 # Site settings
 title: SC
 brief-intro: DATA | ANALYTICS | ML | AI | DEPLOY
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/sc" # the subpath of your site, e.g. /blog
 url: "https://sergiocy.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
