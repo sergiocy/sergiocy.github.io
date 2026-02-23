@@ -6,19 +6,6 @@ icon: heart
 type: page
 ---
 
-* content
-{:toc}
-
-
-## About the blog...
-
-It is important to mention that have been developed with the jekyll template,
-
-[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)
-
-
-
-## About the author...
 
 Hi!
 
@@ -30,6 +17,10 @@ Kind regards!
 
 SC
 
+
+NOTE: It is important to mention that have been developed with the jekyll template,
+
+[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)
 
 
 

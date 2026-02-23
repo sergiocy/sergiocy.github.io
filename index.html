@@ -89,7 +89,7 @@ layout: default
                 <ul class="content-ul" recent>              
                      {% for post in site.posts offset: 0 limit: 10  %}  
                         {% assign firstcateg = post.categories.first %}
-                        {% if firstcateg.first[1] == "portfolios") %} 
+                        {% if firstcateg[1] == "portfolios") %} 
                             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                         {% endif %}
                      {% endfor %} 
