@@ -7,7 +7,7 @@
 
 # Site settings
 title: SC
-brief-intro: DATA SCIENCE | ANALYTICS | AI
+brief-intro: DATA | ANALYTICS | ML | AI | DEPLOY
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sergiocy.github.io" # the base hostname & protocol for your site
 
