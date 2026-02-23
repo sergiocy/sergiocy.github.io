@@ -82,24 +82,20 @@ layout: default
     <div class="right"> 
         <div class="wrap">
         
+        
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Presentation
                 </div>
-                <ul class="content-ul" recent>
-                        <!--
-                        {% for post in site.posts offset: 0 limit: 10  %}
-                            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                        {% endfor %}
-                        -->
-                    
-                     {% for post in site.posts offset: 0 limit: 10  %}  
-                        {% if site.categories.first == "portfolios") %}
-                            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                        {% endif %}
-                     {% endfor %} 
+                <ul class="content-ul" recent>                    
+                         {% for post in site.posts offset: 0 limit: 10  %}  
+                            {% if site.categories.first[1] == "portfolios") %}
+                                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% endif %}
+                         {% endfor %} 
                          
                 </ul>
             </div>
+            
             
             <!-- 
             <div class="side ">
