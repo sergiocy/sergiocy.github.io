@@ -5,6 +5,7 @@ layout: default
 <div class="page clearfix" post>
     <div class="left">
         <h1>{{page.title}}</h1>
+        <!--
         <div class="label">
             <div class="label-card"><i class="fa fa-calendar"></i>{{ page.date | date: "%F" }}</div>
             <div class="label-card">
@@ -18,6 +19,7 @@ layout: default
             <div class="label-card">{% include category.html %}</div>
             <div class="label-card">{% include tag.html %}</div>
         </div>
+        -->
         
         <hr>
         {{content}}
@@ -61,7 +63,11 @@ layout: default
         {% endif %}
         -->
         
+        
+        <!--
         {% include previousAndNext.html %}
+        -->
+        
         
         <!-- NOTE sc
         <h2 id="comments">Comments</h2>
