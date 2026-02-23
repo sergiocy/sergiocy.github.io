@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: post
 title:  "¿Qué es data science?"
 date:   2018-04-05
 categories: miscelaneous
