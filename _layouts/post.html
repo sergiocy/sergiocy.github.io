@@ -4,7 +4,7 @@ layout: default
 
 <div class="page clearfix" post>
 
-    <!-- <div class="left"> -->
+    <div class="left">
         <h1>{{page.title}}</h1>
         <div class="label">
 
@@ -40,6 +40,7 @@ layout: default
         <hr>
 
         
+        <!-- NOTE sc: remove similar posts at the bottom
         
         {% assign hasSimilar = '' %}
         {% for post in site.related_posts %}
@@ -69,7 +70,7 @@ layout: default
         {% if hasSimilar.size > 0 %}
             </ul>
         {% endif %}
-
+        -->
         
         {% include previousAndNext.html %}
         
@@ -79,8 +80,7 @@ layout: default
         {% include comments.html %}
         -->
 
-
-    <!-- </div> -->
+    </div>
 
     
     <!--
@@ -105,6 +105,7 @@ layout: default
         </div>
     </div>
     -->
+    
 </div>
 
 
