@@ -76,8 +76,8 @@ layout: default
     </div>
     
     
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
     
-    <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     
     <div class="right"> 
         <div class="wrap">
@@ -86,17 +86,18 @@ layout: default
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Presentation
                 </div>
                 <ul class="content-ul" recent>
+                        <!--
                         {% for post in site.posts offset: 0 limit: 10  %}
                             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                         {% endfor %}
-                        
-                    <!--
+                        -->
+                    
                      {% for post in site.posts offset: 0 limit: 10  %}  
-                        {% if post.categories == "portfolios", "use-cases") %}
+                        {% if site.categories.first == "portfolios") %}
                             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                         {% endif %}
                      {% endfor %} 
-                    -->     
+                         
                 </ul>
             </div>
             
