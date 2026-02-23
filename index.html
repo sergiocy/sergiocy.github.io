@@ -88,10 +88,11 @@ layout: default
                 </div>
                 <ul class="content-ul" recent>              
                      {% for post in site.posts offset: 0 limit: 10  %}  
+                        <!--
                         {% assign firstcateg = post.categories.first %}
-                        {% if firstcateg[1] == "portfolios") %} 
-                            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                        {% endif %}
+                        {% if firstcateg[1] == "portfolios") %}
+                        {% endif %} -->
+                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                      {% endfor %} 
                 </ul>
             </div>
