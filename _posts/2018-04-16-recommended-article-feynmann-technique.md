@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "La técnica de Feynmann"
+title: La técnica de Feynmann
 date:   2018-04-16
 categories: miscelaneous
 tags: learning

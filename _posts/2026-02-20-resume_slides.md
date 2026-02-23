@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Resume in slides"
-date:   2026-02-18
+title: Resume in slides
+date:  2026-02-18
 categories: portfolios
 tags: data-science
 author: SC
 mathjax: true
 ---
-
-...pdf below...
 
 
 <object
