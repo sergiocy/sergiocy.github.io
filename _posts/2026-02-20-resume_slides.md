@@ -8,9 +8,8 @@ author: SC
 mathjax: true
 ---
 
-
 <object
-  data="/docs/cv_sergiocordoba_visual.pdf"
+  data="/docs/cv_sergiocordoba_visual_portfolio_v0.pdf"
   type="application/pdf"
   width="100%"
   height="1000"
@@ -18,9 +17,10 @@ mathjax: true
 >
   <p>
     Your browser does not support PDFs. [Download the PDF
-    document](/docs/cv_sergiocordoba_visual.pdf)
+    document](/docs/cv_sergiocordoba_visual_portfolio_v0.pdf)
   </p>
 </object>
+
 
 
 
