@@ -8,6 +8,6 @@ author: SC
 mathjax: true
 ---
 
-![pipeline design](/docs/sc_example_portfolio_1.png "pipeline design")
+![design](/docs/sc_sample_portfolio_1.png "pipeline design")
 
 
