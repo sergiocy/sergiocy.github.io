@@ -13,7 +13,7 @@ mathjax: true
   type="application/pdf"
   width="100%"
   height="1000"
-  title="resume"
+  title="slides resume"
 >
   <p>
     Your browser does not support PDFs. [Download the PDF
