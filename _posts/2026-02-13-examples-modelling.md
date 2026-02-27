@@ -8,6 +8,6 @@ author: SC
 mathjax: true
 ---
 
-![](/docs/sc_sample_portfolio_3.png "")
+![modelling](/docs/sc_sample_portfolio_3.png "modelling")
 
 
