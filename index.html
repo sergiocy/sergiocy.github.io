@@ -12,8 +12,9 @@ layout: default
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
                 
-                <!--
+                
                 <div class="label">
+                    <!--
                     <div class="label-card">
                         <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
                     </div>
@@ -34,8 +35,9 @@ layout: default
                     <div class="label-card">
                     {% include tag.html %}
                     </div> 
+                    -->
                 </div>
-                -->
+                
                 
                 <div class="excerpt">
                     {{post.excerpt}}
@@ -48,7 +50,7 @@ layout: default
                 -->
                 
                 <hr>
-                </hr>
+                
                 
               </li>
             {% endfor %}
