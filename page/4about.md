@@ -7,12 +7,9 @@ type: page
 ---
 
 
-# UNDER BUILDING !
+https://www.linkedin.com/in/sergiocordoba
 
-Apologize! 
-Kind regards!
 
-SC
 
 
 NOTE: It is important to mention that have been developed with the jekyll template,
