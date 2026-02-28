@@ -8,40 +8,17 @@ layout: default
         <ul>
             {% for post in paginator.posts %}
               <li>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-                
+                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 
                 <div class="label">
-                    
-                    <div class="label-card">
-                        <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
-                    </div>
-                    
-                    <div class="label-card">
-                        {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
-                        {% endif %}
-                    </div>
-                    
-                    <div class="label-card">
-                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
-                    </div>
-                    
-                    <div class="label-card">
-                    {% include category.html %}
-                    </div>
-                    
-                    <div class="label-card">
-                    {% include tag.html %}
-                    </div> 
-                    
+                    <div class="label-card"><i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}</div>
+                    <div class="label-card">{% if post.author %}<i class="fa fa-user"></i>{{ post.author }}{% endif %}</div>
+                    <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
+                    <div class="label-card">{% include category.html %}</div>
+                    <div class="label-card">{% include tag.html %}</div> 
                 </div>
                 
-                
-                <div class="excerpt">
-                    {{post.excerpt}}
-                </div>
+                <div class="excerpt">{{post.excerpt}}</div>
                 
                 <!--
                 <div class="read-all">
@@ -50,8 +27,6 @@ layout: default
                 -->
                 
                 <hr>
-                
-                
               </li>
             {% endfor %}
         </ul>
@@ -88,7 +63,6 @@ layout: default
     <div class="right"> 
         <div class="wrap">
         
-        
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolios
                 </div>
@@ -103,8 +77,6 @@ layout: default
                 </ul>
             </div>
                         
-            
-            
             <!-- home tags-->
             <div class="side">
                 <div><i class="fa fa-tags"></i>Tags</div>
@@ -147,7 +119,7 @@ layout: default
                 </div>
             </div>
 
-
+            <!--
             <div class="side ">
                 <div>
                     <i class="fa fa-th-list"></i>
@@ -166,9 +138,9 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            
+            -->
 			
-			<!-- home links-->
+
 			<!--
             <div class="side">
                 <div>
