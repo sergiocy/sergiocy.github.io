@@ -5,6 +5,7 @@ layout: default
 <div class="page clearfix" index>
     <div class="left">      
 		<hr>
+		<!--
         <ul>
             {% for post in paginator.posts %}
               <li>
@@ -20,21 +21,16 @@ layout: default
                 
                 <div class="excerpt">{{post.excerpt}}</div>
                 
-                <!--
-                <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a>
-                </div>
-                -->
+                <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
                 
                 <hr>
               </li>
             {% endfor %}
         </ul>
-
+        <!--
 
 
         <!-- Pagination links 
-        
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -52,8 +48,8 @@ layout: default
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
-        
-        -->   
+        --> 
+          
     </div>
     
     
