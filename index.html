@@ -20,11 +20,16 @@ layout: default
                     <div class="label-card">{% include category.html %}</div>
                     <div class="label-card">{% include tag.html %}</div> 
                 </div>
-                
+                <!--
                 <div class="excerpt">{{post.excerpt}}</div>
+                -->
+                <div style="text-align: center;">
+                    <img src="/docs/cv_sergiocordoba_page1.png" alt="Descripción" width="100%">
+                </div>
                 
+                <!--
                 <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
-                
+                -->
                 <hr>
               </li>
             {% endfor %}
@@ -62,8 +67,7 @@ layout: default
         <div class="wrap">
         
             <div class="side">
-                <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolios
-                </div>
+                <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolios</div>
                 <ul class="content-ul" recent>              
                      {% for post in site.posts offset: 0 limit: 10  %}  
                         <!--
