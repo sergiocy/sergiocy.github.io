@@ -7,12 +7,9 @@ type: page
 ---
 
 
-Hi!
+# UNDER BUILDING !
 
-I'm a data scientist with background in physics and speciality in mathematical modeling. Always I have been interested in inter-disciplinary areas close than computing as AI or complex systems.
-
-I have worked in data science and intelligent systems developement, where I have acquired software developement skills and interests. 
-
+Apologize! 
 Kind regards!
 
 SC
