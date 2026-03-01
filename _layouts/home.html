@@ -1,33 +1,15 @@
 ---
-layout: home
+layout: default
 ---
 
-<div class="page clearfix" index>
-
+<div class="page clearfix" post>
     <div class="left">
-
-		<hr>
-
-        <ul>
-            {% for post in paginator.posts %}
-              <li>
-
-                <h2>design, implementation and deployment of ML/AI pipelines...</h2>
-
-                <div style="center">
-                    <img src="/docs/background5.png">
-                </div>
-
-                <hr>
-              </li>
-            {% endfor %}
-        </ul>
-
+        <h1>{{page.title}}</h1>
+        <hr>
+        {{content}}
     </div>
 
-<!--
     <button class="anchor"><i class="fa fa-anchor"></i></button>
-
 
     <div class="right">
         <div class="wrap">
@@ -36,12 +18,16 @@ layout: home
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolios</div>
                 <ul class="content-ul" recent>
                      {% for post in site.posts offset: 0 limit: 10  %}
+                        <!--
+                        {% assign firstcateg = post.categories.first %}
+                        {% if firstcateg[1] == "portfolios") %}
+                        {% endif %} -->
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                      {% endfor %}
                 </ul>
             </div>
 
-
+            <!-- home tags-->
             <div class="side">
                 <div><i class="fa fa-tags"></i>Tags</div>
                 <div class="tags-cloud">
@@ -84,14 +70,7 @@ layout: home
             </div>
 
 
-
-
-
         </div>
     </div>
--->
-
 </div>
-
-<script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
