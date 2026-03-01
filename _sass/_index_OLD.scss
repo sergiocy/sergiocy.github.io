@@ -19,6 +19,22 @@
                     font-size: 27px;
                     margin: 0;
                 }
+                .label {
+                    margin-bottom: 15px;
+                    overflow: hidden;
+                    .label-card {
+                        float: left;
+                        margin-right: 15px;
+                        i {
+                            padding-right: 0;
+                            margin-right: 3px;
+                            color: #6b6a6a;
+                        }
+                    }
+                    .categories {
+                        padding: 0;
+                    }
+                }
                 .excerpt {
                     h2 {
                         font-size: 24px;

@@ -4,10 +4,10 @@ layout: default
 
 <div class="page clearfix" index>
 
-    <div class="left">
-
+    <div class="left">      
+		
 		<hr>
-
+		
         <ul>
             {% for post in paginator.posts %}
               <li>
@@ -15,14 +15,23 @@ layout: default
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 -->
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
-
+                
+                <div class="label">
+                    <div class="label-card"><i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}</div>
+                    <div class="label-card">{% if post.author %}<i class="fa fa-user"></i>{{ post.author }}{% endif %}</div>
+                    <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
+                    <div class="label-card">{% include category.html %}</div>
+                    <div class="label-card">{% include tag.html %}</div> 
+                    
+                </div>
+                
                 <!--
                 <div class="excerpt">{{post.excerpt}}</div>
                 -->
                 <div style="center">
                     <img src="/docs/background5.png">
                 </div>
-
+                
                 <!--
                 <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
                 -->
@@ -30,10 +39,10 @@ layout: default
               </li>
             {% endfor %}
         </ul>
+ 
+        
 
-
-
-        <!-- Pagination links
+        <!-- Pagination links 
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -51,30 +60,30 @@ layout: default
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
-        -->
-
+        --> 
+          
     </div>
-
-
+    
+    
     <button class="anchor"><i class="fa fa-anchor"></i></button>
-
-
-    <div class="right">
+    
+    
+    <div class="right"> 
         <div class="wrap">
-
+        
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolios</div>
-                <ul class="content-ul" recent>
-                     {% for post in site.posts offset: 0 limit: 10  %}
+                <ul class="content-ul" recent>              
+                     {% for post in site.posts offset: 0 limit: 10  %}  
                         <!--
                         {% assign firstcateg = post.categories.first %}
                         {% if firstcateg[1] == "portfolios") %}
                         {% endif %} -->
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                     {% endfor %}
+                     {% endfor %} 
                 </ul>
             </div>
-
+                        
             <!-- home tags-->
             <div class="side">
                 <div><i class="fa fa-tags"></i>Tags</div>
@@ -137,7 +146,7 @@ layout: default
                 </ul>
             </div>
             -->
-
+			
 
 			<!--
             <div class="side">
@@ -146,7 +155,7 @@ layout: default
                     Reference links
                 </div>
                 <ul  class="content-ul">
-
+                
                     <li><a href="https://www.gartner.com/en">gartner</a></li>
                     <li><a href="https://www.kaggle.com/">kaggle</a></li>
                     <li><a href="https://medium.com/">medium</a></li>
@@ -155,14 +164,14 @@ layout: default
 					<li><a href="http://www.datasciencecentral.com/">datasciencecentral</a></li>
 					<li><a href="https://www.analyticsvidhya.com/">analyticsvidhya</a></li>
 					<li><a href="https://insidehpc.com/">insidehpc</a></li>
-
+					
                 </ul>
-            </div>
+            </div> 
 			-->
-
+			
         </div>
     </div>
-
+    
 </div>
 
 <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
