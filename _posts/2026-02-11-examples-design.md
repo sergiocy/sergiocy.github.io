@@ -8,6 +8,6 @@ author: SC
 mathjax: true
 ---
 
-![design](/docs/sc_sample_portfolio_1.png "pipeline design")
-
-
+<div style="text-align: center;">
+    <img src="/docs/sc_sample_portfolio_1.png" alt="pipeline design" width="100%">
+</div>
