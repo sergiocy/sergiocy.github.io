@@ -26,7 +26,7 @@ type: page
                             <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
                             <time>
-                            {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
+                            - {{ post.date | date:"%Y" }} -
                             </time>
 
                             {% include category.html %}
