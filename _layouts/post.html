@@ -7,7 +7,7 @@ layout: default
         <h1>{{page.title}}</h1>
 
         <hr>
-        
+
         <div class="label">
         <!--
             <div class="label-card"><i class="fa fa-calendar"></i>{{ page.date | date: "%F" }}</div>
@@ -17,7 +17,7 @@ layout: default
             <div class="label-card">{% include category.html %}</div>
             <div class="label-card">{% include tag.html %}</div>
         </div>
-        
+
         <hr>
 
         <article itemscope itemtype="http://schema.org/BlogPosting">
@@ -104,6 +104,8 @@ layout: default
 
             <div class="side">
                 <div><i class="fa fa-tags"></i>Tags</div>
+                {% include tagCloud.html %}
+                <!--
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
                     {% assign max = first[1].size %}
@@ -141,6 +143,7 @@ layout: default
                       <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
                     {% endfor %}
                 </div>
+                -->
             </div>
         </div>
     </div>

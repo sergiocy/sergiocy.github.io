@@ -12,9 +12,9 @@ layout: default
             <!--
             {% for post in paginator.posts %}
               <li>
-                
+
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
-                
+
                 <hr>
             -->
                 <hr>
@@ -47,7 +47,7 @@ layout: default
         <div class="wrap">
 
             <div class="side">
-                <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolios</div>
+                <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Overview</div>
                 <ul class="content-ul" recent>
                      {% for post in site.posts offset: 0 limit: 7  %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
@@ -58,6 +58,8 @@ layout: default
 
             <div class="side">
                 <div><i class="fa fa-tags"></i>Tags</div>
+                {% include tagCloud.html %}
+                <!--
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
                     {% assign max = first[1].size %}
@@ -95,6 +97,7 @@ layout: default
                       <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
                     {% endfor %}
                 </div>
+                -->
             </div>
         </div>
     </div>
@@ -105,7 +108,3 @@ layout: default
 <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
 -->
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-
-
-
-
