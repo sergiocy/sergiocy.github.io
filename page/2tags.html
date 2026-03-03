@@ -30,7 +30,7 @@ type: page
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
                 <time>
-                - {{ post.date | date:"%Y" }} -
+                {{ post.date | date:"%Y" }}
                 </time>
 
                 {% include category.html %}
@@ -54,6 +54,7 @@ type: page
             </div>
 
             <!-- Content -->
+            <!--
             <div class="side content">
                 <div>
                     Content
@@ -69,6 +70,7 @@ type: page
 
                 </ul>
             </div>
+            -->
         </div>
     </div>
 
