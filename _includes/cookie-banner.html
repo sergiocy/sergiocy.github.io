@@ -1,7 +1,14 @@
-<div id="cookie-banner" style="display: none; position: fixed; bottom: 20px; right: 20px; background: #fff; border: 1px solid #ddd; padding: 15px; z-index: 9999; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; max-width: 300px;">
-    <p style="margin: 0 0 10px; font-size: 14px;">I use third-party cookies to analyze the traffic (only use it as personal project). ¿do you accept?</p>
-    <button onclick="acceptCookies()" style="background: #28a745; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px;">Accept</button>
-    <button onclick="rejectCookies()" style="background: #dc3545; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px;">Reject</button>
+
+<!-- Fondo oscurecido -->
+<div id="cookie-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 9998;"></div>
+
+<!-- Banner centrado  -->
+<div id="cookie-banner" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 500px; background: #fff; padding: 30px; z-index: 9999; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border-radius: 12px; text-align: center; font-family: sans-serif;">
+    <h3 style="margin-top: 0; color: #333;">I use third-party cookies to analyze the traffic (only use it as personal project). ¿do you accept?</h3>
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <button onclick="acceptCookies()" style="background: #28a745; color: white; border: none; padding: 12px 24px; cursor: pointer; border-radius: 6px; font-weight: bold; flex: 1;">Accept</button>
+        <button onclick="rejectCookies()" style="background: #f8f9fa; color: #666; border: 1px solid #ddd; padding: 12px 24px; cursor: pointer; border-radius: 6px; flex: 1;">Reject</button>
+    </div>
 </div>
 
 <script>
@@ -19,24 +26,31 @@
         gtag('config', GA_ID);
     }
 
+    function hideBanner() {
+        document.getElementById('cookie-banner').style.display = 'none';
+        document.getElementById('cookie-overlay').style.display = 'none';
+    }
+
     function acceptCookies() {
         localStorage.setItem('cookie-consent', 'accepted');
-        document.getElementById('cookie-banner').style.display = 'none';
+        hideBanner();
         loadGA();
     }
 
     function rejectCookies() {
         localStorage.setItem('cookie-consent', 'rejected');
-        document.getElementById('cookie-banner').style.display = 'none';
+        hideBanner();
     }
 
     window.onload = function() {
         const consent = localStorage.getItem('cookie-consent');
         if (!consent) {
             document.getElementById('cookie-banner').style.display = 'block';
+            document.getElementById('cookie-overlay').style.display = 'block';
         } else if (consent === 'accepted') {
             loadGA();
         }
     };
 </script>
+
 
