@@ -2,7 +2,7 @@
 layout: post
 title: Resume in slides
 date:  2026-02-27
-categories: portfolios
+categories: portfolio
 tags: data-science
 author: SC
 mathjax: true

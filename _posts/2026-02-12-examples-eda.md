@@ -2,7 +2,7 @@
 layout: post
 title: Examples EDA
 date:   2026-02-12
-categories: use-cases
+categories: portfolio
 tags: data-science EDA data-analysis data-exploratory feature matplotlib seaborn python R ggplot2 histogram distribution business-insights statistics mean median percentiles
 author: SC
 mathjax: true
