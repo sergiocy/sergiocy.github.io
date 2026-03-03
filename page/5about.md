@@ -1,6 +1,6 @@
 ---
 layout: demo
-title: About
+title: CV
 permalink: /about/
 icon: heart
 type: page
@@ -18,3 +18,19 @@ Regards!
 
 SC
 
+
+
+<div>
+<object
+  data="/docs/cv_sergiocordoba_page1.pdf"
+  type="application/pdf"
+  width="100%"
+  height="1000"
+  title="resume"
+>
+  <p>
+    Your browser does not support PDFs. [Download the PDF
+    document](/docs/cv_sergiocordoba_page1.pdf)
+  </p>
+</object>
+</div>
