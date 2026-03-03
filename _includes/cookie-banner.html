@@ -1,0 +1,42 @@
+<div id="cookie-banner" style="display: none; position: fixed; bottom: 20px; right: 20px; background: #fff; border: 1px solid #ddd; padding: 15px; z-index: 9999; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; max-width: 300px;">
+    <p style="margin: 0 0 10px; font-size: 14px;">I use third-party cookies to analyze the traffic (only use it as personal project). ¿do you accept?</p>
+    <button onclick="acceptCookies()" style="background: #28a745; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px;">Accept</button>
+    <button onclick="rejectCookies()" style="background: #dc3545; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px;">Reject</button>
+</div>
+
+<script>
+    const GA_ID = 'G-EXRRJHNN16';
+
+    function loadGA() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/' + GA_ID;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', GA_ID);
+    }
+
+    function acceptCookies() {
+        localStorage.setItem('cookie-consent', 'accepted');
+        document.getElementById('cookie-banner').style.display = 'none';
+        loadGA();
+    }
+
+    function rejectCookies() {
+        localStorage.setItem('cookie-consent', 'rejected');
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+    window.onload = function() {
+        const consent = localStorage.getItem('cookie-consent');
+        if (!consent) {
+            document.getElementById('cookie-banner').style.display = 'block';
+        } else if (consent === 'accepted') {
+            loadGA();
+        }
+    };
+</script>
+
