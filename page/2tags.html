@@ -28,7 +28,7 @@ type: page
                 </time>
             -->
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                
+
                 <time>
                 - {{ post.date | date:"%Y" }} -
                 </time>
@@ -39,11 +39,19 @@ type: page
           {% endfor %}
         {% endfor %}
         </ul>
-
     </div>
+
+
     <button class="anchor"><i class="fa fa-anchor"></i></button>
+
+
     <div class="right">
         <div class="wrap">
+
+            <div class="side">
+                <div><i class="fa fa-tags"></i>Tags</div>
+                {% include tagCloud.html %}
+            </div>
 
             <!-- Content -->
             <div class="side content">
@@ -63,5 +71,6 @@ type: page
             </div>
         </div>
     </div>
+
 </div>
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
