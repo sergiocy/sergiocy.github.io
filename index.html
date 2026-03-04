@@ -22,7 +22,7 @@ layout: default
                 <div class="label-card">{% include category.html %}</div>
                 <div class="label-card">{% include tag.html %}</div>
 
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
 
@@ -36,7 +36,6 @@ layout: default
                 -->
               </li>
 
-              {% include previousAndNext.html %}
 
             {% endfor %}
 
@@ -71,8 +70,7 @@ layout: default
         </div>
 
 
-
-
+        {% include previousAndNext.html %}
 
 
     </div>
