@@ -15,28 +15,13 @@ layout: default
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
 
-                <!--
-                <div class="label-card"><i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}</div>
-                <div class="label-card">{% if post.author %}<i class="fa fa-user"></i>{{ post.author }}{% endif %}</div>
-                <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
-                <div class="label-card">{% include category.html %}</div>
-                <div class="label-card">{% include tag.html %}</div>
-                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                <h2>design, implementation and deployment of ML/AI pipelines...</h2>
-                <div class="excerpt">{{post.excerpt}}</div>
-                <div style="center">
-                    <img src="/docs/background5.png">
-                </div>
-                <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
-                -->
-
               </li>
 
             {% endfor %}
         </ul>
         <hr>
 
-        <!-- Pagination links -->
+        <!-- Pagination links
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -57,7 +42,7 @@ layout: default
 
 
         {% include previousAndNext.html %}
-
+        -->
 
     </div>
 
