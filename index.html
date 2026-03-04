@@ -29,12 +29,12 @@ layout: default
                 <div class="excerpt">{{post.excerpt}}</div>
                 -->
                 <hr>
-                <!--
+
                 <div style="center">
                     <img src="/docs/background5.png">
                 </div>
                 <hr>
-                -->
+
 
                 <!--
                 <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
@@ -79,7 +79,7 @@ layout: default
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolio</div>
                 <ul class="content-ul" recent>
-                     {% for post in site.posts offset: 0 limit: 10  %}
+                     {% for post in site.posts offset: 0 limit: 7  %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                      {% endfor %}
                 </ul>
