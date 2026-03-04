@@ -7,11 +7,10 @@ layout: default
     <div class="left">
 
         <hr>
-        
-        <ul>
-         <!--   
-            {% for post in paginator.posts %}
 
+        <ul>
+            {% for post in paginator.posts %}
+            <!--
               <li>
 
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
@@ -26,15 +25,15 @@ layout: default
                 <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
 
               </li>
-
+            -->
             {% endfor %}
-        -->    
-        
-        
+
+
+
         <div style="center">
             <img src="/docs/background5.png">
         </div>
-        </ul>        
+        </ul>
         <hr>
 
         <!-- Pagination links-->
@@ -55,7 +54,7 @@ layout: default
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
-        
+
 
 
         {% include previousAndNext.html %}
