@@ -12,12 +12,13 @@ layout: default
             {% for post in paginator.posts %}
 
               <li>
-
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
                 <!--
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
 
-                <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
+
 
                 <div class="excerpt">{{post.excerpt}}</div>
 
@@ -38,7 +39,9 @@ layout: default
             <img src="/docs/background5.png">
         </div>
 
+
         <hr>
+
 
         <!-- Pagination links -->
         <div class="pagination">
