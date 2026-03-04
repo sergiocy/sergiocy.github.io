@@ -7,8 +7,10 @@ layout: default
     <div class="left">
 
         <ul>
+          <!--
             {% for post in paginator.posts %}
               <li>
+              -->
                 <!--
                 <div class="label">
                   <div class="label-card"><i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}</div>
@@ -21,13 +23,11 @@ layout: default
 
                 <!--
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-
-
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
-
 
                 <div class="excerpt">{{post.excerpt}}</div>
                 -->
+
                 <hr>
 
                 <div style="center">
@@ -39,9 +39,10 @@ layout: default
                 <!--
                 <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
                 -->
-
+<!--
               </li>
             {% endfor %}
+            -->
         </ul>
 
         <!-- Pagination links
