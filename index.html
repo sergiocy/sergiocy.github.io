@@ -15,13 +15,14 @@ layout: default
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
 
+                <div class="excerpt">{{post.excerpt}}</div>
               </li>
 
             {% endfor %}
         </ul>
         <hr>
 
-        <!-- Pagination links
+        <!-- Pagination links -->
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -40,7 +41,7 @@ layout: default
           {% endif %}
         </div>
 
-
+        <!--
         {% include previousAndNext.html %}
         -->
 
