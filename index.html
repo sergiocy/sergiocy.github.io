@@ -9,30 +9,28 @@ layout: default
 		<hr>
 
         <ul>
-            <!--
+
             {% for post in paginator.posts %}
               <li>
 
+
+                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <!--
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
 
-                <hr>
-            -->
-                <hr>
-                <hr>
+
                 <hr>
                 <div style="center">
                     <img src="/docs/background5.png">
                 </div>
                 <hr>
-                <hr>
-                <hr>
-                <hr>
-                <hr>
-                <hr>
-            <!--
+                -->
+
               </li>
             {% endfor %}
-            -->
+
+
+
         </ul>
 
         <!-- Pagination links
@@ -70,7 +68,7 @@ layout: default
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Portfolio</div>
                 <ul class="content-ul" recent>
-                     {% for post in site.posts offset: 0 limit: 7  %}
+                     {% for post in site.posts offset: 0 limit: 10  %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                      {% endfor %}
                 </ul>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio examples
+title: Portfolio
 date:  2026-02-20
 categories: portfolio
 tags: data-science

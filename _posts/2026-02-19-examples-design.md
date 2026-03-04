@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Examples pipeline design
-date:   2026-02-11
+date:   2026-02-19
 categories: portfolio
 tags: data-science ML-architecture ML-engineering model-approach state-of-the-art
 author: SC
