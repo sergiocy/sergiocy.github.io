@@ -9,7 +9,6 @@ layout: default
 		<hr>
 
         <ul>
-
             {% for post in paginator.posts %}
               <li>
 
@@ -17,20 +16,23 @@ layout: default
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 <!--
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
-
+                -->
+                <div class="excerpt">{{post.excerpt}}</div>
 
                 <hr>
+                <!--
                 <div style="center">
                     <img src="/docs/background5.png">
                 </div>
                 <hr>
                 -->
 
+                <!--
+                <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read more...</a></div>
+                -->
+
               </li>
             {% endfor %}
-
-
-
         </ul>
 
         <!-- Pagination links
