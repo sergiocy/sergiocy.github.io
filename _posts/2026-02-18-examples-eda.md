@@ -9,5 +9,5 @@ mathjax: true
 ---
 
 <div style="text-align: center;">
-    <img src="/docs/sc_sample_portfolio_2.png" alt="Examples exploratory data analysis" width="100%">
+    <img src="/docs/cv_sergiocordoba_portfolio2_eda.png" alt="Examples exploratory data analysis" width="100%">
 </div>
