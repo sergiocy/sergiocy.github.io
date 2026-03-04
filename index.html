@@ -21,8 +21,9 @@ layout: default
                 </div>
                 -->
 
-                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 <!--
+                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
                 <h2>design, implementation and deployment of ML/AI pipelines...</h2>
                 -->
                 <div class="excerpt">{{post.excerpt}}</div>
@@ -43,7 +44,7 @@ layout: default
             {% endfor %}
         </ul>
 
-        <!-- Pagination links -->
+        <!-- Pagination links
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -61,7 +62,7 @@ layout: default
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
-
+        -->
 
         {% include previousAndNext.html %}
 
