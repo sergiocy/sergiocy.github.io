@@ -55,6 +55,7 @@ layout: default
 
     <div class="right">
         <div class="wrap">
+
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Overview</div>
                 <ul class="content-ul" recent>
@@ -64,11 +65,16 @@ layout: default
                 </ul>
             </div>
 
+            <div class="side">
+                <div><i class="fa fa-tags"></i>Role</div>
+                {% include tagCloudCategories.html %}
+            </div>
 
             <div class="side">
                 <div><i class="fa fa-tags"></i>Skills</div>
                 {% include tagCloud.html %}
             </div>
+
         </div>
     </div>
 
