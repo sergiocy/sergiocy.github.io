@@ -2,8 +2,8 @@
 layout: post
 title: Marketing target automation
 date:   2024-01-01
-categories: poc industry
-tags: EDA ad-hoc conversion-rate data-analysis data-exploratory
+categories: PoC ad-hoc
+tags: EDA conversion-rate data-analysis data-exploratory
 author: SC
 mathjax: true
 ---

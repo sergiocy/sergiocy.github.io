@@ -2,8 +2,8 @@
 layout: post
 title: PoC input features from web-activity
 date:   2021-01-01
-categories: poc industry
-tags: cookies ad-hoc text-processing
+categories: PoC
+tags: cookies text-processing
 author: SC
 mathjax: true
 ---

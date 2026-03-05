@@ -2,8 +2,8 @@
 layout: post
 title: GA data migration
 date:   2023-10-01
-categories: poc industry
-tags: GCP GA4 UA BigQuery data-model GoogleAnalytics
+categories: PoC data-engineering data-architecture
+tags: GCP GA4 UA BigQuery GoogleAnalytics
 author: SC
 mathjax: true
 ---
