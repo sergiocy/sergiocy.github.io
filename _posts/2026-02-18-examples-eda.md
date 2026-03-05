@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio: EDA
+title: Portfolio EDA
 date:   2026-02-18
 categories: portfolio data-science ad-hoc PoC data-engineering
 tags: ETL EDA data-analysis matplotlib seaborn python R ggplot2 business-insights 

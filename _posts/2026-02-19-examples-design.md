@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Portfolio: pipeline design
-date:   2026-02-19
+title: Portfolio pipeline design
+date: 2026-02-19
 categories: portfolio data-science ML-engineering owner 
-tags: state-of-the-art cloud-architecture
+tags: state-of-the-art cloud-architecture end-to-end-pipeline
 author: SC
 mathjax: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio: modelling and evaluation
+title: Portfolio modelling and evaluation
 date:   2026-02-17
 categories: portfolio data-science owner PoC ad-hoc
 tags: classification regression supervised unsupervised PCA clustering state-of-the-art metrics KPI business-case
