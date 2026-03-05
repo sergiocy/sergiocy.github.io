@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Examples pipeline design
+title: Portfolio: pipeline design
 date:   2026-02-19
-categories: portfolio
-tags: data-science ML-architecture ML-engineering model-approach state-of-the-art
+categories: portfolio data-science ML-engineering owner 
+tags: state-of-the-art cloud-architecture
 author: SC
 mathjax: true
 ---

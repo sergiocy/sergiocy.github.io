@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Examples modelling
+title: Portfolio: modelling and evaluation
 date:   2026-02-17
-categories: portfolio
-tags: data-science xgboost classification regression threshold supervised unsupervised random-forest PCA clustering k-means k-prototypes tsne
+categories: portfolio data-science owner PoC ad-hoc
+tags: classification regression supervised unsupervised PCA clustering state-of-the-art metrics KPI business-case
 author: SC
 mathjax: true
 ---
