@@ -19,7 +19,7 @@ type: page
 
         <ul>
         {% for tag in sortedtags %}
-          <h2 id="{{ tag }}">{{ tag }}</h2>
+          <h2 id="{{ tag }}">      {{ tag }}</h2>
           {% for post in site.tags[tag] %}
             <li>
             <!--
@@ -61,9 +61,7 @@ type: page
             -->
 
             <div class="side">
-                <div>
-                    Content
-                </div>
+                <div>Categories</div>
                 <ul id="content-side" class="content-ul">
                     {% for tag in sortedtags %}
                     <li>

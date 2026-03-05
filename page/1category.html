@@ -14,7 +14,7 @@ type: page
         <hr>
         <ul>
             {% for category in site.categories %}
-            <h2 id="{{category | first}}">{{category | first}}</h2>
+            <h2 id="{{category | first}}">      {{category | first}}</h2>
                 {% for posts in category  %}
                     {% for post in posts %}
                         {% if post.url %}
@@ -51,7 +51,7 @@ type: page
                 <div><i class="fa fa-th-list"></i>Role and typology</div>
                 {% include tagCloudCategories.html %}
             </div>
-            
+
             <!--
             <div class="side">
                 <div><i class="fa fa-tags"></i>Skills</div>
@@ -60,7 +60,10 @@ type: page
             -->
 
             <div class="side">
+                <div>Categories</div>
+                <!--
                 <div><i class="fa fa-th-list"></i>Categories</div>
+                -->
                 <ul id="content-side" class="content-ul">
                     {% for category in site.categories%}
                         <li>
