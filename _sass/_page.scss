@@ -35,9 +35,10 @@
                 line-height: 1.8;
                 color: #888888;
                 time {
+                    font-weight: bold;
                     display: inline-block;
                     /*     width: 135px;     */
-                    width: 60px;
+                    width: 40px;
                 }
                 .title {
                     font-weight: bold;
@@ -50,8 +51,8 @@
                 i {
                     margin-right: 5px;
                 }
-                /*
-                .categories {
+                
+                /*.categories {
                     padding: 0 15px;
                     i {
                         color: #9e9d9d;
@@ -85,8 +86,8 @@
                             background-color: #c0ddc7;
                         }
                     }
-                }
-                */
+                } */
+                
             }
         }
     }

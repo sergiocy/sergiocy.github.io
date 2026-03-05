@@ -22,20 +22,22 @@ type: page
           <h2 id="{{ tag }}">      {{ tag }}</h2>
           {% for post in site.tags[tag] %}
             <li>
+
             <!--
                 <time>
                 {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
                 </time>
             -->
+
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
                 <time>
                 {{ post.date | date:"%Y" }}
                 </time>
-                <!--
-                {% include category.html %}
-                {% include tag.html %}
-                -->
+
+                <!-- {% include category.html %} -->
+                <!-- {% include tag.html %} -->
+
             </li>
           {% endfor %}
         {% endfor %}
