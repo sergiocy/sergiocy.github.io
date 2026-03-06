@@ -15,9 +15,10 @@ layout: default
                 -->
                 <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
                 <div class="excerpt">{{post.excerpt}}</div>
-
+                <!--
                 <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>check my presentation...</a></div>
-
+                -->
+                <div class="read-all"><a  href="https://sergiocy.github.io/2026/02/22/presentation"><i class="fa fa-newspaper-o"></i>check my presentation...</a></div>
                 <div class="read-all"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>...or got my CV and portfolio here</a></div>
 
 
@@ -27,7 +28,7 @@ layout: default
         </ul>
 
 
-        <!-- Pagination links -->
+        <!-- Pagination links
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -36,18 +37,14 @@ layout: default
             <span class="previous disable"><i class="fa fa-angle-double-left"></i></span>
             <span class="previous disable"><i class="fa fa-angle-left"></i></span>
           {% endif %}
-          <!--<span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}</span>-->
           <span class="page_number ">{{ paginator.page }}/{{ 2 }}</span>
-
           {% if paginator.next_page and paginator.page < 2 %}
             <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-angle-right"></i></a>
-            <!--<a href="{{ site.baseurl }}/page{{ paginator.total_pages }}" class="next"><i class="fa fa-angle-double-right"></i></a>-->
           {% else %}
             <span class="next disable"><i class="fa fa-angle-right"></i></span>
-            <!--<span class="next disable"><i class="fa fa-angle-double-right"></i></span>-->
           {% endif %}
         </div>
-
+        -->
 
         <!--{% include previousAndNext.html %}-->
 
