@@ -16,6 +16,10 @@ layout: default
                 <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
 
                 <div class="excerpt">{{post.excerpt}}</div>
+
+
+                <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>follow...</a></div>
+
               </li>
 
             {% endfor %}

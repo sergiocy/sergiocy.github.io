@@ -2,8 +2,8 @@
 layout: post
 title: Portfolio EDA
 date:   2026-02-18
-categories: portfolio data-science ad-hoc PoC data-engineering cross-functional end-to-end-pipeline
-tags: ETL EDA data-analysis matplotlib seaborn python R ggplot2 business-insights 
+categories: portfolio data-science ad-hoc data-engineering
+tags: end-to-end-pipeline ETL EDA data-analysis matplotlib seaborn python R ggplot2 jupyter RStudio
 author: SC
 mathjax: true
 ---

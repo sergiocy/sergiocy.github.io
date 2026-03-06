@@ -2,8 +2,8 @@
 layout: post
 title: Portfolio pipeline design
 date: 2026-02-19
-categories: portfolio data-science ML-engineering owner cross-functional end-to-end-pipeline
-tags: state-of-the-art cloud-architecture
+categories: portfolio data-science ML-engineering ML-architecture data-architecture owner cross-functional business-case
+tags: end-to-end-pipeline modelling evaluation research state-of-the-art
 author: SC
 mathjax: true
 ---
