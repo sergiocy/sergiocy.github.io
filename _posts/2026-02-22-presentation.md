@@ -24,8 +24,24 @@ in the second part of the flow...
 </div>
 
 
-and finally...
+## a bit about my expertise...
 
 
-<div class="read-all"><a  href="https://sergiocy.github.io/2026/02/19/portfolio"><i class="fa fa-newspaper-o"></i>check a bit of my expertise...</a></div>
-<div class="read-all"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>...or got my CV and portfolio here</a></div>
+<div style="text-align: center;">
+    <img src="/docs/cv_sergiocordoba_portfolio1_design.png" alt="pipeline design" width="100%">
+</div>
+
+
+<div style="text-align: center;">
+    <img src="/docs/cv_sergiocordoba_portfolio2_eda.png" alt="EDA" width="100%">
+</div>
+
+
+<div style="text-align: center;">
+    <img src="/docs/cv_sergiocordoba_portfolio3_modelling.png" alt="modelling" width="100%">
+</div>
+
+
+<div style="text-align: center;">
+    <img src="/docs/cv_sergiocordoba_portfolio4_monitoring.png" alt="monitoring" width="100%">
+</div>
