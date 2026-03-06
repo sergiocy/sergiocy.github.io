@@ -8,11 +8,6 @@ author: SC
 mathjax: true
 ---
 
-<div style="text-align: center;">
-    <img src="/docs/cv_sergiocordoba_slide1.png" alt="pipeline design" width="100%">
-</div>
-
-
 ## regarding my role...
 
 in the first part of the flow...

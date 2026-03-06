@@ -14,11 +14,14 @@ layout: default
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 -->
                 <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}</div>
-
                 <div class="excerpt">{{post.excerpt}}</div>
 
+                <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>check my role...</a></div>
 
-                <div class="read-all"><a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>follow...</a></div>
+                <h1 class="demo-title">
+                    <a href="https://sergiocy.github.io/about/">...or got my CV, presentation or portfolio</a>
+                </h1>
+
 
               </li>
 
@@ -48,9 +51,7 @@ layout: default
         </div>
 
 
-        <!--
-        {% include previousAndNext.html %}
-        -->
+        <!--{% include previousAndNext.html %}-->
 
     </div>
 
@@ -60,7 +61,7 @@ layout: default
 
     <div class="right">
         <div class="wrap">
-
+           <!--
             <div class="side">
                 <div><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Overview</div>
                 <ul class="content-ul" recent>
@@ -69,7 +70,7 @@ layout: default
                      {% endfor %}
                 </ul>
             </div>
-
+            -->
             <div class="side">
                 <div><i class="fa fa-th-list"></i>Role and typology</div>
                 {% include tagCloudCategories.html %}
