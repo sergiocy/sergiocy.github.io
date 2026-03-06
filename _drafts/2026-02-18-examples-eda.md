@@ -12,4 +12,4 @@ mathjax: true
     <img src="/docs/cv_sergiocordoba_portfolio2_eda.png" alt="Examples exploratory data analysis" width="100%">
 </div>
 
-portfolio data-science data-engineering ML-engineering MLOps owner tech-lead production PoC ad-hoc
+portfolio data-science data-engineering ML-engineering MLOps owner tech-lead production  ad-hoc

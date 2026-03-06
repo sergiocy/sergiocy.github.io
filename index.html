@@ -36,9 +36,9 @@ layout: default
             <span class="previous disable"><i class="fa fa-angle-left"></i></span>
           {% endif %}
           <!--<span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}</span>-->
-          <span class="page_number ">{{ paginator.page }}/{{ 7 }}</span>
+          <span class="page_number ">{{ paginator.page }}/{{ 2 }}</span>
 
-          {% if paginator.next_page and paginator.page < 7 %}
+          {% if paginator.next_page and paginator.page < 2 %}
             <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-angle-right"></i></a>
             <!--<a href="{{ site.baseurl }}/page{{ paginator.total_pages }}" class="next"><i class="fa fa-angle-double-right"></i></a>-->
           {% else %}

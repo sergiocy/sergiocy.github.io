@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Presentation slide 1
+title: Presentation
 date:   2026-02-22
-categories: portfolio data-science end-to-end-pipeline ML-engineering cross-functional production  
-tags: ETL EDA modelling deploy monitoring state-of-the-art
+categories: portfolio data-science ML-engineering cross-functional production  
+tags: end-to-end-pipeline ETL EDA SQL NoSQL modelling evaluation deploy monitoring state-of-the-art
 author: SC
 mathjax: true
 ---
