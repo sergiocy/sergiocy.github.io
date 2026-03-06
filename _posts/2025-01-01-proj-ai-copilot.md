@@ -2,8 +2,8 @@
 layout: post
 title: AI-copilot
 date: 2025-01-01
-categories: data-science production end-to-end-pipeline cross-functional IT LLMOps
-tags: Azure-Blob Azure-OpenAI AzureSearch docker airflow Azure-DevOps genAI RAG LLM API postman JSON pdf xml deepeval python sdk-azure chunking AWS-ECR
+categories: data-science production cross-functional IT LLMOps
+tags: end-to-end-pipeline Azure-Blob Azure-OpenAI AzureSearch docker airflow Azure-DevOps genAI RAG LLM API postman JSON pdf xml deepeval python sdk-azure chunking AWS-ECR
 author: SC
 mathjax: true
 ---
