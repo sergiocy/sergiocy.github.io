@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regarding my role...
+title: About my expertise...
 date:   2026-02-22
 categories: data-science ML-engineering cross-functional production  
 tags: end-to-end-pipeline ETL EDA SQL NoSQL modelling evaluation deploy monitoring state-of-the-art
@@ -24,7 +24,7 @@ in the second part of the flow...
 </div>
 
 
-## a bit about my expertise...
+## Know-how...
 
 
 <div style="text-align: center;">
