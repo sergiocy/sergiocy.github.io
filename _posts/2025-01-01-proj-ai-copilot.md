@@ -9,4 +9,4 @@ mathjax: true
 ---
 
 RAG builded with huge quantity of company documentation (around 7000 pages) to consult in a chatbot/virtual assistent way.
-Data (documents) extraction from different data-sources (APIs, Sharepoint) and file-formats (pdf, xml, ppt, json)
+Data (documents) extraction from different data-sources (APIs, Sharepoint) and file-formats (pdf, xml, ppt, json), Conversion markdown, chunking.
