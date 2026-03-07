@@ -2,8 +2,8 @@
 layout: post
 title: About my expertise...
 date:   2026-02-22
-categories: data-science ML-engineering cross-functional production  
-tags: end-to-end-pipeline ETL EDA SQL NoSQL modelling evaluation deploy monitoring state-of-the-art
+categories: data-science ML-engineering MLOps data-engineering cross-functional production business-case owner tech-lead
+tags: end-to-end-pipeline ETL EDA data-analysis SQL NoSQL modelling evaluation deploy monitoring state-of-the-art research classification regression clustering KPI
 author: SC
 mathjax: true
 ---
