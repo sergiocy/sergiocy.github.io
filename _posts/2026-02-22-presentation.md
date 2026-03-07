@@ -8,11 +8,11 @@ author: SC
 mathjax: true
 ---
 
-Ubicated in the intersection between business and technological areas. Specifically, to understand the business-goal and to advise stakeholders about the model-approach are my first steps. In the technical side, in addition to analytical and data-science experience, i have an strong knowledge about data-engineering, (applied-)ML-engineering and MLOps tasks, and overlap with those to review and prepare input-data and industrialize ML or AI projects.
+Ubicated in the **intersection between business and technological areas**. Specifically, to **understand the business-goal and to advise stakeholders about the model-approach** are my first steps. In the technical side, in addition to **analytical and data-science experience**, i have an strong knowledge about **data-engineering, (applied-)ML-engineering and MLOps** tasks, and overlap with those to review and prepare input-data and industrialize ML or AI projects.
 
-I design, build and deploy end-to-end ML-pipelines at high-scale environment, monitoring the model performance in analytical and business terms. To track reference model metrics, the system behaviour (logs, alerts, mailing) and monetize the project are a "must" in production environment.
+I **design, build and deploy end-to-end ML-pipelines at high-scale environment**, monitoring the model performance in analytical and business terms. To track reference model metrics, the system behaviour (logs, alerts, mailing) and **monetize the project** are a "must" in production environment.
 
-I have led projects taking the ownership, supervising developments and reporting to stakeholders in economical terms; "from raw-data to business assets".
+I have led projects taking the **ownership, supervising developments and reporting to stakeholders** in economical terms; **"from raw-data to business assets"**.
 
 <hr>
 
