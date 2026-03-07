@@ -47,6 +47,4 @@ in the second part of the flow...
 </div>
 
 
-<div class="read-all"><a  href="https://sergiocy.github.io/demo/"><i class="fa fa-play"></i>Check a bit around use cases and projects...</a></div>
-
-<div class="read-all"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>...or you can get before slides and CV here...</a></div>
+Check a bit about use cases and projects <p><a  href="https://sergiocy.github.io/demo/">use cases and projects</a><p> or get before slides or CV <p><a  href="https://sergiocy.github.io/about/">here</a><p>
