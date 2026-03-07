@@ -45,3 +45,6 @@ in the second part of the flow...
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_portfolio4_monitoring.png" alt="monitoring" width="100%">
 </div>
+
+
+<div class="read-all"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>You can get before slides and CV here...</a></div>
