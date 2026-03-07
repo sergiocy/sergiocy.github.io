@@ -14,6 +14,7 @@ I design, build and deploy end-to-end ML-pipelines at high-scale environment, mo
 
 I have led projects taking the ownership, supervising developments and reporting to stakeholders in economical terms; "from raw-data to business assets".
 
+<hr>
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_slide2.png" alt="pipeline design" width="100%">
@@ -25,7 +26,11 @@ I have led projects taking the ownership, supervising developments and reporting
 </div>
 
 
+<hr>
+
 # Know-how...  
+
+<hr>
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_portfolio1_design.png" alt="pipeline design" width="100%">
