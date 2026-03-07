@@ -8,25 +8,21 @@ author: SC
 mathjax: true
 ---
 
-Ubicated in the intersection between business and technological areas. Specifically, to understand the business-goal and to advise stakeholders about the solution are my first steps. In the technical side, i have an strong knowledge about data-engineering, (applied-)ML-engineering and MLOps tasks, and overlap with those to review and prepare input-data and industrialize ML or AI projects.
+Ubicated in the intersection between business and technological areas. Specifically, to understand the business-goal and to advise stakeholders about the model-approach are my first steps. In the technical side, in addition to analytical and data-science experience, i have an strong knowledge about data-engineering, (applied-)ML-engineering and MLOps tasks, and overlap with those to review and prepare input-data and industrialize ML or AI projects.
 
 I design, build and deploy end-to-end ML-pipelines at high-scale environment, monitoring the model performance in analytical and business terms. To track reference model metrics, the system behaviour (logs, alerts, mailing) and monetize the project are a "must" in production environment.
 
-I have led projects taking the ownership, supervising developements and reporting to stakeholders in economical terms; "from raw-data to business assets".
-
-Many times, productive ML/AI pipelines have three well-differenced parts. I would say; data-preparation, modelling and deploy (and monitoring). Along of this development flow...
+I have led projects taking the ownership, supervising developments and reporting to stakeholders in economical terms; "from raw-data to business assets".
 
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_slide2.png" alt="pipeline design" width="100%">
 </div>
 
-in the second part of the flow...
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_slide3.png" alt="pipeline design" width="100%">
 </div>
-
 
 
 # Know-how...  
@@ -49,7 +45,6 @@ in the second part of the flow...
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_portfolio4_monitoring.png" alt="monitoring" width="100%">
 </div>
-
 
 
 <div class="read-all" style="text-align: right;"><a  href="https://sergiocy.github.io/demo/"><i class="fa fa-play"></i>Check a bit around use cases and projects...</a></div>
