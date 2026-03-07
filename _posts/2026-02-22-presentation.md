@@ -47,4 +47,6 @@ in the second part of the flow...
 </div>
 
 
-<div class="read-all"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>You can get before slides and CV here...</a></div>
+<div class="read-all"><a  href="https://sergiocy.github.io/demo/"><i class="fa fa-play"></i>Check a bit around use cases and projects...</a></div>
+
+<div class="read-all"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>...or you can get before slides and CV here...</a></div>
