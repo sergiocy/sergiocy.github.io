@@ -2,8 +2,8 @@
 layout: post
 title: About my expertise...
 date:   2026-02-22
-categories: data-science ML AI NLP ML-engineering MLOps data-engineering cross-functional PROduction business-case owner tech-lead
-tags: end-to-end-pipeline ETL EDA data-analysis modelling evaluation deploy monitoring state-of-the-art research classification regression clustering KPI SQL NoSQL python R-language AWS Azure GCP docker airflow
+categories: data-science end-to-end-pipeline ML AI NLP ML-engineering MLOps data-engineering cross-functional PROduction business-case owner tech-lead
+tags: ETL EDA data-analysis modelling evaluation deploy monitoring state-of-the-art research classification regression clustering KPI SQL NoSQL python R-language AWS Azure GCP docker airflow
 author: SC
 mathjax: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: NPS-tracker
 date: 2025-01-01
-categories: data-science ML PROduction cross-functional visualization
-tags: end-to-end-pipeline SHAP lightgbm NPS KPI python SQL AWS-Redshift AWS-S3 docker airflow Azure-DevOps
+categories: data-science ML end-to-end-pipeline PROduction cross-functional visualization
+tags: SHAP lightgbm NPS KPI python SQL AWS-Redshift AWS-S3 docker airflow Azure-DevOps
 author: SC
 mathjax: true
 ---
