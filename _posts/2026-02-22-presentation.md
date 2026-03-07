@@ -51,6 +51,7 @@ I have led projects taking the ownership, supervising developments and reporting
     <img src="/docs/cv_sergiocordoba_portfolio4_monitoring.png" alt="monitoring" width="100%">
 </div>
 
+<hr>
 
 <div class="read-all" style="text-align: right;"><a  href="https://sergiocy.github.io/demo/"><i class="fa fa-play"></i>Check a bit around use cases and projects...</a></div>
 <div class="read-all" style="text-align: right;"><a  href="https://sergiocy.github.io/about/"><i class="fa fa-pencil-square-o"></i>...or you can get before slides and CV here...</a></div>

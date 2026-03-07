@@ -2,8 +2,8 @@
 layout: post
 title: Front
 date:   2026-02-23
-categories: data-science ML-engineering cross-functional production  
-tags: end-to-end-pipeline ETL EDA SQL NoSQL modelling evaluation deploy monitoring state-of-the-art
+categories: data-science ML-engineering cross-functional PROduction  
+tags: end-to-end-pipeline ETL EDA modelling evaluation deploy monitoring state-of-the-art
 author: SC
 mathjax: true
 ---
