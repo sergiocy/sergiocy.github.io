@@ -3,7 +3,7 @@ layout: post
 title: Life-time value
 date:   2024-01-01
 categories: PROduction end-to-end-pipeline classification multiclass regression profiling research data-science owner tech-lead ML-engineering
-tags: python EDA SQL AWS-Redshift AWS-S3 xgboost lightgbm networkX airflow docker state-of-the-art page-rank Azure-DevOps elasticsearch
+tags: python EDA SQL AWS-Redshift AWS-S3 xgboost lightgbm networkX airflow docker state-of-the-art page-rank Azure-DevOps F1 precision recall ROC elasticsearch
 author: SC
 mathjax: true
 ---
