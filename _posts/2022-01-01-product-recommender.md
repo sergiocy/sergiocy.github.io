@@ -1,0 +1,11 @@
+---
+layout: post
+title: Product recommender
+date:   2022-01-01
+categories: ML recommender classification multioutput PROduction business-case data-analysis data-science data-engineering ML-engineering MLOps owner cross-functional IT 3rd-party
+tags: python xgboost SQL AWS-Redshift AWS-S3 AWS-Lambda AWS-Sagemaker airflow docker pytest AWS-ApiGetway API postman reddis
+author: SC
+mathjax: true
+---
+
+-----
