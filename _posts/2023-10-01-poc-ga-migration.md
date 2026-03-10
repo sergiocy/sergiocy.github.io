@@ -2,7 +2,7 @@
 layout: post
 title: (PoC) GA data migration
 date:   2023-10-01
-categories: PoC data-engineering data-architecture
+categories: PoC cross-functional data-engineering data-architecture
 tags: GCP GA4 UA BigQuery GCP-CloudStorage GCP-CloudFunctions GCP-CloudSchedule GoogleAnalytics
 author: SC
 mathjax: true
