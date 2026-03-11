@@ -20,6 +20,7 @@ I have led projects taking the **ownership, supervising developments and reporti
     <img src="/docs/cv_sergiocordoba_slide2.png" alt="pipeline design" width="100%">
 </div>
 
+<hr>
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_slide3.png" alt="pipeline design" width="100%">
@@ -36,16 +37,19 @@ I have led projects taking the **ownership, supervising developments and reporti
     <img src="/docs/cv_sergiocordoba_portfolio1_design.png" alt="pipeline design" width="100%">
 </div>
 
+<hr>
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_portfolio2_eda.png" alt="EDA" width="100%">
 </div>
 
+<hr>
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_portfolio3_modelling.png" alt="modelling" width="100%">
 </div>
 
+<hr>
 
 <div style="text-align: center;">
     <img src="/docs/cv_sergiocordoba_portfolio4_monitoring.png" alt="monitoring" width="100%">
