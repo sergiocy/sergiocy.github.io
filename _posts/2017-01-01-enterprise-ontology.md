@@ -3,7 +3,7 @@ layout: post
 title: Enterprise ontology
 date:   2017-01-01
 categories: PROduction research AI cross-functional data-engineering data-science
-tags: java maven sparQL graphdb git
+tags: sparQL graphdb graph
 author: SC
 mathjax: true
 ---
