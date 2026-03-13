@@ -3,7 +3,7 @@ layout: post
 title: Enterprise ontology
 date:   2017-01-01
 categories: PROduction research AI cross-functional data-engineering data-science
-tags: java maven sparQL OWL RDF graphdb pentaho git
+tags: java maven sparQL graphdb pentaho git
 author: SC
 mathjax: true
 ---

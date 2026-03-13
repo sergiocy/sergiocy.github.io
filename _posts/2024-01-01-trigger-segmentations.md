@@ -3,7 +3,7 @@ layout: post
 title: Trigger segmentations
 date:   2024-01-01
 categories: PROduction end-to-end-pipeline ML-engineering MLOps ML-architecture owner
-tags: python SQL AWS-Redshift AWS-S3 elasticsearch datadog airflow docker
+tags: python SQL AWS-Redshift AWS-S3 elasticsearch airflow docker
 author: SC
 mathjax: true
 ---
