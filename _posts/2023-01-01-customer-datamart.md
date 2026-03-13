@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Travel classification
+title: Customers datamart
 date:   2023-01-01
 categories: PROduction data-science cross-functional data-engineering data-architecture tech-lead
-tags: python spark SQL 3rd-party-platform AWS-Redshift AWS-S3 AWS-Lambda airflow docker multiprocessing HPC text-processing text-similarity jaro-winkler levenshtein
+tags: python pyspark SQL AWS AWS-Redshift AWS-S3 AWS-Lambda airflow docker multiprocessing HPC text-processing AWS-ECR
 author: SC
 mathjax: true
 ---
