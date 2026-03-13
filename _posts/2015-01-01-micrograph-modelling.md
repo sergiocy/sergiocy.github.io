@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Product price optimization
-date:   2020-01-01
-categories: ML PROduction classifier regression optimization research data-science owner cross-functional data-engineering MLOps ML-engineering ML-architecture 3rd-party-platform
-tags: python xgboost ONNX datarobot revenue conversion-rate state-of-the-art A-B-test
+title: Micrograph modelling
+date:   2015-01-01
+categories: regression optimization research
+tags: R-language C/C++ DigitalMicrograph mathematical-modelling
 author: SC
 mathjax: true
 ---
 
-System to optimaze the procduct price in according with customer characteristics (purchase probability)
+Computing tool to interatomic distances measurement from digital images (microscopies, TEM-micrographs)

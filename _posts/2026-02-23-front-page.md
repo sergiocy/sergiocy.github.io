@@ -2,8 +2,8 @@
 layout: post
 title: Front
 date:   2026-02-23
-categories: data-science end-to-end-pipeline ML genAI AI NLP ML-engineering cross-functional PROduction  
-tags: ETL EDA modelling evaluation deploy monitoring state-of-the-art
+categories: data-science end-to-end-pipeline ML genAI AI ML-engineering cross-functional data-engineering MLOps PROduction  
+tags: ETL EDA state-of-the-art
 author: SC
 mathjax: true
 ---

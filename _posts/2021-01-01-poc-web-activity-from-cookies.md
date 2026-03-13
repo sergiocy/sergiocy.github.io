@@ -3,7 +3,7 @@ layout: post
 title: PoC input features from web-activity
 date:   2021-01-01
 categories: PoC
-tags: cookies text-processing
+tags: text-processing feature-engineering
 author: SC
 mathjax: true
 ---
