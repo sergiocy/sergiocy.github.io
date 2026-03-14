@@ -16,6 +16,20 @@
                     </a>
                 </li>
 
+
+                <li>
+                    {% if page.url == '/category' %}
+                    <a class="active" href="{{site.baseurl}}/2026/02/22/presentation/">
+                        {% else %}
+                    <a href="{{site.baseurl}}/2026/02/22/presentation/">
+                    {% endif %}
+                        <!-- <i class="fa fa-home"></i>Overview -->
+                        <i class="fa fa-th-list"></i>Presentation
+                    </a>
+                </li>
+
+
+
                 {% for my_page in site.pages %}
                     {% if my_page.type == 'page' %}
                     <li>
