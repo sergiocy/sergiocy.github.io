@@ -3,7 +3,7 @@ layout: post
 title: Micrograph modelling
 date:   2015-01-01
 categories: regression optimization research
-tags: R-language C/C++ DigitalMicrograph mathematical-modelling
+tags: R-language C/C++ mathematical-modelling
 author: SC
 mathjax: true
 ---
